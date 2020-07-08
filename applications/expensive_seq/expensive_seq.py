@@ -1,10 +1,8 @@
 # Your code here
 
-
 def expensive_seq(x, y, z):
-    # Your code here
-
-
+    if x <= 0:
+        return y + z
 
 if __name__ == "__main__":
     for i in range(10):
