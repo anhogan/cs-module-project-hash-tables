@@ -24,7 +24,6 @@ def word_count(s):
         else:
             word_hash[stripped.lower()] = 1
     
-    print('Hash', word_hash)
     return word_hash
 
 if __name__ == "__main__":
